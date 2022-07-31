@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh; */
+
+}
+
+.container{
+    background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+
+}
+
+.navbar{
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+}
+.navbar div:first-child{
+    flex: 1;
+}
+
+.logo{
+    width: 100px;
+    margin-top: 13px;
+    margin-left: 3rem;
+}
+
+.grow-list{
+    flex-grow: 2;
+}
+
+.line{
+    border-right: 1px solid white;
+    height: 40px;
+    top: 2px;
+    left: -2rem;
+    position: relative;
+
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.list-item{
+
+    font-family: "Montserrat", sans-serif;
+    padding: 2px 20px;
+    list-style-type: none;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+.navbar div:nth-child(4){
+    flex:1;
+}
+
+.button-small{
+    margin-top: 8px;
+    color: white;
+    background-color: #ba0cc5;
+    border-radius: 8px;
+    padding: 9px 30px;
+    font-size: 17px;
+
+}
+
+
+
+
+.hero{
+    height: 82vh;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-heading{
+    line-height: 1.2;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+      font-size: 80px;
+      width: 12em;
+      word-wrap: break-word;
+  }
+  
+  
+  .button-large{
+   
+    border-radius: 10px;
+    padding: 16px 40px;
+    background-color: #ba0cc5;
+    color: white;
+    border:none;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+  
+  .hero-description{
+    position: relative;
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin-top: 2rem;
+  }
